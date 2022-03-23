@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+#jatek{
+    margin: auto;
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#jatek div{
+    background-color: grey;
+    width: 12.5%;
+    height: 80px;
+    border: 1px solid black;
+}
